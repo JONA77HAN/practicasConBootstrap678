@@ -1,0 +1,29 @@
+
+        body {
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        .navbar {
+            background-color: #000000;
+        }
+
+        .section {
+            padding: 100px 0;
+        }
+
+        .section-black {
+            background-color: #000000;
+        }
+
+        .section-white {
+            background-color: #ffffff;
+        }
+
+        .section-yellow {
+            background-color: #f39c12;
+            color: #000000;
+        }
+
+        /* Personaliza el resto de los estilos según tus preferencias */
+  
