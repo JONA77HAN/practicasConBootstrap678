@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
     <title>Estudio de Arquitectura - Buenos Aires</title>
 
     <!-- Bootstrap CSS -->
@@ -41,9 +42,9 @@
     </nav>
 
     <!-- Sección 1 - Imagen de fondo -->
-    <div class="section section-black text-center" style="background-image: url('img/img_abasto.jpg'); background-size: cover; background-position: center;">
+    <div class="section section-black text-center section-box-shadow" style="background-image: url('img/img_abasto.jpg'); background-size: cover; background-position: center;">
         <div class="overlay" ></div>
-        <h1 class="display-4">Habilitaciones</h1>
+        <h1 class="display-4">Habilitaciones Comerciales</h1>
         <p class="lead">Diseñamos el futuro de Buenos Aires</p>
     </div>
 
@@ -51,15 +52,15 @@
   
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-4 text-center mb-4">
+            <div class="col-12 col-md-4 text-center mt-4">
                 <img src="img/arq.jpg" alt="" class="img-fluid rounded-circle" style="max-width: 150px;">
                 <h3>Trabajos personalizados</h3>
             </div>
-            <div class="col-12 col-md-4 text-center mb-4">
+            <div class="col-12 col-md-4 text-center mt-4">
                 <img src="img/arq.jpg" alt="" class="img-fluid rounded-circle" style="max-width: 150px;">
                 <h3>Otras cosas</h3>
             </div>
-            <div class="col-12 col-md-4 text-center mb-4">
+            <div class="col-12 col-md-4 text-center mt-4">
                 <img src="img/arq.jpg" alt="" class="img-fluid rounded-circle" style="max-width: 150px;">
                 <h3>Presupuestos</h3>
             </div>
@@ -80,7 +81,46 @@
         </div>
     </div>
 
-    <!-- Sección 4 - Texto amarillo sobre fondo amarillo -->
+    <!-- Sección 4 - AQUI VA EL FORM  Texto amarillo sobre fondo amarillo -->
+    
+
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <h2 class="text-center mb-4">Formulario de Contacto</h2>
+      <form action="https://formspree.io/f/meqprbpk" method="POST">
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" class="form-control" id="email" name="_replyto" placeholder="Ingresa tu correo electrónico" required>
+        </div>
+        <div class="form-group">
+          <label for="celular">Número de Celular:</label>
+          <input type="tel" class="form-control" id="celular" name="celular" placeholder="Ingresa tu número de celular" required>
+        </div>
+        <div class="form-group">
+          <label for="asunto">Asunto:</label>
+          <input type="text" class="form-control" id="asunto" name="asunto" placeholder="Ingresa el asunto" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+    
+    
     <div class="section section-yellow text-center">
         <h2>Contacto</h2>
         <p>ACA va el form de contacto</p>
