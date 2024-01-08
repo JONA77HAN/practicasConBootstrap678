@@ -1,1 +1,1 @@
-alert('textos en javascript aparecieron ahora')
+alert('Hola la solucion a tus problemas habilitadisticos esta en esta página, no olvides dejar tus datos asi podemos contactarte.')
