@@ -64,3 +64,41 @@
         .whatsapp-icon:hover {
             background-color: #128C7E; /* Cambiar a un color más oscuro al pasar el ratón por encima */
         }
+        .container {
+            margin-top: 50px;
+          }
+      
+          .col-md-4:hover {
+            background-color: #7a6969; /* Cambia el color al pasar el mouse */
+            transition: background-color 0.3s ease; /* Agrega una transición suave */
+          }
+      
+          .col-12 {
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave */
+          }
+          .section-black {
+            background-color: #000;
+            color: #fff;
+            padding: 50px 0;
+          }
+      
+          .section-black img {
+            max-width: 100%;
+            display: block;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+          }
+      
+          .section-black img:hover {
+            transform: translateY(-5px); /* Levanta la imagen */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Agrega un box shadow */
+          }
+         
+          .col-md-5 {
+            padding: 10px;
+            border: 10px;
+            margin: 10px
+          }
+         
+      
+          
